@@ -37,16 +37,15 @@ function howLongIsMyString(str) {
 
 function instructorHeight(str) {
   let response = ' '
-  if (str==='Colin') {
-  response = '62'
-    }
+  if (str === 'Colin') {
+  response = 62}
   else if (str === 'Mesuara') {
   response = 67}
-  if (str !== 'Colin' && str !== 'Mesuara'){
-  response = "I don\'t know that instructor!"
+  else if (str !== 'Colin' && str !== 'Mesuara'){
+  response = "I don\'t know that instructor!"}
   return response;
   }
-}
+
 
 
 
