@@ -1,21 +1,51 @@
-function isItLong() {
+function isItLong(str) {
+  if (str.length > 20) {
+  return "That's a long string!"
+  }
+  
+  // let response = ' ';
+  // if (str.length >= 20) {
+  // response = "That's a long string!"
+  // }
+}
+
+function isItMedium(str) {
+  if (str.length <= 20 && str.length >= 10) {
+    return "That's a regular sized string!";
+  }
 
 }
 
-function isItMedium() {
-
+function isItShort(str) {
+  if (str.length < 10) {
+    return "That's a small string!";
+  }
 }
 
-function isItShort() {
-
+function howLongIsMyString(str) {
+  let response = ' '
+  if (str.length > 20) {
+  response = "That's a long string!"
+    }
+  else if(str.length <= 20 && str.length >= 10) {
+  response = "That's a regular sized string!";
+  }
+  else if (str.length < 10) {
+  response = "That's a small string!";}
+  return response;
 }
 
-function howLongIsMyString() {
-
-}
-
-function instructorHeight() {
-
+function instructorHeight(str) {
+  let response = ' '
+  if (str==='Colin') {
+  response = '62'
+    }
+  else if (str === 'Mesuara') {
+  response = 67}
+  if (str !== 'Colin' && str !== 'Mesuara'){
+  response = "I don\'t know that instructor!"
+  return response;
+  }
 }
 
 
