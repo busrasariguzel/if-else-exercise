@@ -3,10 +3,7 @@ function isItLong(str) {
   return "That's a long string!"
   }
   
-  // let response = ' ';
-  // if (str.length >= 20) {
-  // response = "That's a long string!"
-  // }
+
 }
 
 function isItMedium(str) {
